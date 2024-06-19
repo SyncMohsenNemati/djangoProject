@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #000080; /* Navy text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header#main-topic {
+    background-color: #e6f7ff; /* Very light blue */
+    padding: 20px;
+    text-align: center;
+}
+
+header#main-topic h1,
+header#main-topic h2,
+header#main-topic h3 {
+    color: #000080; /* Navy */
+}
+
+header#main-topic a {
+    color: #0000ff; /* Blue */
+    text-decoration: none;
+}
+
+header#main-topic a:hover {
+    text-decoration: underline;
+}
+
+header#main-topic img {
+    width: 150px; /* Smaller image */
+    height: auto;
+    border-radius: 15px; /* Curved edges */
+}
+
+/* Section Body Styles */
+section#body {
+    background-color: #cceeff; /* Light blue */
+    padding: 20px;
+    margin: 10px;
+}
+
+section#body header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #000080; /* Navy */
+}
+
+section#body a {
+    color: #0000ff; /* Blue */
+}
+
+section#body img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    width: 150px; /* Smaller image */
+    height: auto;
+    border-radius: 15px; /* Curved edges */
+}
+
+/* Section Description Styles */
+section#description {
+    background-color: #b3e0ff; /* Light blue */
+    padding: 20px;
+    margin: 10px;
+}
+
+section#description header {
+    font-size: 1.5em;
+    color: #000080; /* Navy */
+}
+
+section#description p {
+    color: #000080; /* Navy */
+}
+
+section#description img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    width: 150px; /* Smaller image */
+    height: auto;
+    border-radius: 15px; /* Curved edges */
+}
