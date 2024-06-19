@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #000080; /* Navy text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header#main-topic {
+    background-color: #e6f7ff; /* Very light blue */
+    padding: 20px;
+    text-align: center;
+}
+
+header#main-topic h1,
+header#main-topic h2,
+header#main-topic h3 {
+    color: #000080; /* Navy */
+}
+
+header#main-topic a {
+    color: #0000ff; /* Blue */
+    text-decoration: none;
+}
+
+header#main-topic a:hover {
+    text-decoration: underline;
+}
+
+header#main-topic img {
+    width: 150px; /* Smaller image */
+    height: auto;
+    border-radius: 15px; /* Curved edges */
+}
+
+/* Post List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    background-color: #cceeff; /* Light blue */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000080; /* Navy */
+}
+
+ul li a:hover {
+    color: #0000ff; /* Blue */
+}
+
+ul li h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+ul li img {
+    width: 150px; /* Smaller image */
+    height: auto;
+    border-radius: 15px; /* Curved edges */
+    margin-bottom: 10px;
+}
+
+ul li p {
+    color: #000080; /* Navy */
+}
