@@ -11,20 +11,7 @@
 {% endblock %}
 
 {% block content %}
-    <header id="main-topic">
-        <h1>
-            Hello , this is first page
-        </h1>
-        <h1><a href="">
-            Mohsenetu Blog
-        </a></h1>
-        <h3><a href="">All Post</a></h3>
-        <img src="{% static 'images/030.JPG' %}" alt="builder-of-website">
-        <h2>this is my blog</h2>
-
-        <h2> My name is Mohsen Nemati</h2>
-    </header>
-
+    {% include 'includes/Header.html' %}
     <section id="body">
         <header>The lastest post</header>
         <div><a href="">post1</a></div>

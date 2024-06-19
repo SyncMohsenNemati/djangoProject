@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block header_references %}
+
+{% endblock %}
+
+{% block title %}
+	All-Post
+{% endblock %}
+
+{% block content %}
+    {% include 'includes/Header.html' %}
+    <ul>
+        {% include 'includes/post.html' %}
+    </ul>
+    <ul>
+        {% include 'includes/post.html' %}
+    </ul>
+    <ul>
+        {% include 'includes/post.html' %}
+    </ul>
+    <ul>
+        {% include 'includes/post.html' %}
+    </ul>
+{% endblock %}
