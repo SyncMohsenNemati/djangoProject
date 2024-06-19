@@ -1,4 +1,10 @@
 {% extends 'base.html' %}
+{% load static %}
+
+
+{% block header_references %}
+    <link rel="stylesheet" href="{% static 'blog/index.css' %}">
+{% endblock %}
 
 {% block title %}
     Home
@@ -13,7 +19,7 @@
             Mohsenetu Blog
         </a></h1>
         <h3><a href="">All Post</a></h3>
-        <img src="" alt="builder-of-website">
+        <img src="{% static 'images/030.JPG' %}" alt="builder-of-website">
         <h2>this is my blog</h2>
 
         <h2> My name is Mohsen Nemati</h2>
@@ -22,7 +28,7 @@
     <section id="body">
         <header>The lastest post</header>
         <div><a href="">post1</a></div>
-        <img src="" alt="post1-picture">
+        <img src="{% static 'images/041.JPG' %}" alt="post1-picture">
     </section>
 
     <section id="description">
@@ -30,7 +36,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias architecto assumenda consequuntur
             corporis, ducimus eligendi fuga id incidunt ipsa iure laudantium nulla obcaecati quasi quos reiciendis
             soluta tenetur voluptates?</p>
-        <img src="" alt="about-me">
+        <img src="{% static 'images/29.jpg' %}" alt="about-me">
     </section>
 
 {% endblock %}
