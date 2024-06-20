@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #000080; /* Navy text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header#main-topic {
+    background-color: #e6f7ff; /* Very light blue */
+    padding: 20px;
+    text-align: center;
+}
+
+header#main-topic h1,
+header#main-topic h2,
+header#main-topic h3 {
+    color: #000080; /* Navy */
+}
+
+header#main-topic a {
+    color: #0000ff; /* Blue */
+    text-decoration: none;
+}
+
+header#main-topic a:hover {
+    text-decoration: underline;
+}
+
+header#main-topic img {
+    width: 150px; /* Smaller image */
+    height: auto;
+    border-radius: 15px; /* Curved edges */
+}
+
+/* Body Section Styles */
+section#body {
+    background-color: #cceeff; /* Light blue */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+section#body h2 {
+    color: #000080; /* Navy */
+}
+
+section#body p {
+    color: #000080; /* Navy */
+}
+
+/* Image Styles */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 300px; /* Adjust width as needed */
+    height: auto;
+    border-radius: 15px; /* Curved edges */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
