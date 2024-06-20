@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block header_references %}
+    <link rel="stylesheet" href="{% static 'blog/singlePost.css' %}">
+{% endblock %}
+
+{% block title %}
+    single-post
+{% endblock %}
+
+{% block content %}
+    {% include 'includes/Header.html' %}
+    <section id="body">
+        <h2>this is my article</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab asperiores autem beatae consectetur cum dicta
+            distinctio dolore eaque eligendi eum fuga incidunt magni nemo, nihil nisi odit pariatur, porro quae quaerat
+            qui quis rerum sint suscipit tempore veniam voluptas. Animi aperiam dolores libero magnam modi provident
+            quaerat repudiandae voluptatum!</p>
+    </section>
+    <img src="{% static 'images/031.JPG' %}" alt="blog-post-image">
+{% endblock %}
